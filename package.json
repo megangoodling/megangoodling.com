@@ -1,13 +1,15 @@
 {
-  "name": "Todo",
+  "name": "todo",
   "version": "1.0.0",
   "description": "building todo app using mongodb, express, react and nodejs",
   "main": "index.js",
-  "scripts": {
-    "start": "concurrently \"node index.js\" \"cd client && yarn start\"",
-    "start-watch": "nodemon index.js",
-    "dev": "concurrently \"yarn run start-watch\" \"cd client && yarn start\""
-},
+  "scripts": {    
+    "client-install": "npm install --prefix client",    
+    "start": "node index.js",    
+    "server": "nodemon index.js",    
+    "client": "npm start --prefix client",    
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
