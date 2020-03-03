@@ -1,0 +1,99 @@
+.Page {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Header {
+    height: 45vh;
+    width: 100%;
+    margin: 8vw;
+}
+
+.Content {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 15vh;
+    padding-bottom: 20vh;
+}
+
+.Row {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+h1 {
+    font-size: 10vh;
+    font-family: 'PT Serif Caption', serif;
+    text-align: left;
+}
+
+h2 {
+    font-size: 8vh;
+    font-family: 'PT Serif Caption', serif;
+    text-align: left;
+    color: black;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;    
+    font-size: 2vh;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+}
+
+@media only screen and (max-width: 1370px) {
+    h1 {
+        font-size: 8.5vh;
+    }
+
+    h2 {
+        font-size: 6vh;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    h1 {
+        font-size: 8vw;
+    }
+
+    h2 {
+        font-size: 6.5vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .Header {
+        height: 58vh;
+    }
+
+    h1 {
+        font-size: 12vw;
+    }
+
+    h2 {
+        font-size: 8.5vw;
+    }
+}

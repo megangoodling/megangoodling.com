@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "building todo app using mongodb, express, react and nodejs",
   "main": "index.js",
-  "scripts": {    
-    "client-install": "npm install --prefix client",    
-    "start": "node index.js",    
-    "server": "nodemon index.js",    
-    "client": "npm start --prefix client",    
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],
@@ -17,7 +17,8 @@
     "body-parser": "^1.18.3",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "mongoose": "^5.9.3"
+    "mongoose": "^5.9.3",
+    "react-router-dom": "^5.1.2"
   },
   "devDependencies": {
     "concurrently": "^5.1.0",
