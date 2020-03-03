@@ -10,7 +10,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 //connect to the database
-mongoose.connect(MONGOLAB_URI, { useNewUrlParser: true })
+mongoose.connect(process.env.MONGOLAB_URI, { useNewUrlParser: true })
   .then(() => console.log(`Database connected successfully`))
   .catch(err => console.log(err));
 
