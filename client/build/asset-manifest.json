@@ -1,25 +1,37 @@
 {
   "files": {
-    "main.css": "/static/css/main.0f770dec.chunk.css",
-    "main.js": "/static/js/main.196e7d41.chunk.js",
-    "main.js.map": "/static/js/main.196e7d41.chunk.js.map",
+    "main.css": "/static/css/main.e6084b92.chunk.css",
+    "main.js": "/static/js/main.81dcfc4f.chunk.js",
+    "main.js.map": "/static/js/main.81dcfc4f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cea588d5.js",
     "runtime-main.js.map": "/static/js/runtime-main.cea588d5.js.map",
-    "static/js/2.af8bf389.chunk.js": "/static/js/2.af8bf389.chunk.js",
-    "static/js/2.af8bf389.chunk.js.map": "/static/js/2.af8bf389.chunk.js.map",
+    "static/js/2.4d141644.chunk.js": "/static/js/2.4d141644.chunk.js",
+    "static/js/2.4d141644.chunk.js.map": "/static/js/2.4d141644.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.41492a8a8f75305c3f4b687e00d93c91.js": "/precache-manifest.41492a8a8f75305c3f4b687e00d93c91.js",
+    "precache-manifest.9aec22be7a32593dd7897abbe7eefe0e.js": "/precache-manifest.9aec22be7a32593dd7897abbe7eefe0e.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.0f770dec.chunk.css.map": "/static/css/main.0f770dec.chunk.css.map",
-    "static/js/2.af8bf389.chunk.js.LICENSE.txt": "/static/js/2.af8bf389.chunk.js.LICENSE.txt",
+    "static/css/main.e6084b92.chunk.css.map": "/static/css/main.e6084b92.chunk.css.map",
+    "static/js/2.4d141644.chunk.js.LICENSE.txt": "/static/js/2.4d141644.chunk.js.LICENSE.txt",
     "static/media/MG-logo.png": "/static/media/MG-logo.80629e96.png",
     "static/media/Profile-B&W.jpg": "/static/media/Profile-B&W.913df90b.jpg",
-    "static/media/menu-bars.svg": "/static/media/menu-bars.e2efe401.svg"
+    "static/media/afatherslullaby.txt": "/static/media/afatherslullaby.1283b77b.txt",
+    "static/media/afatherslullaby.jpg": "/static/media/afatherslullaby.dd62d621.jpg",
+    "static/media/begoodjewelry.txt": "/static/media/begoodjewelry.ca0cdab5.txt",
+    "static/media/begoodjewelry.jpg": "/static/media/begoodjewelry.e341e56f.jpg",
+    "static/media/menu-bars.svg": "/static/media/menu-bars.e2efe401.svg",
+    "static/media/nlpcolumbia.txt": "/static/media/nlpcolumbia.8161b7ac.txt",
+    "static/media/nlpcolumbia.jpg": "/static/media/nlpcolumbia.989784b0.jpg",
+    "static/media/raspberrypi.txt": "/static/media/raspberrypi.12b19da0.txt",
+    "static/media/raspberrypi.jpg": "/static/media/raspberrypi.8b24af3d.jpg",
+    "static/media/thiswebsite.jpg": "/static/media/thiswebsite.c82b7c91.jpg",
+    "static/media/thiswebsite.txt": "/static/media/thiswebsite.ef3d040b.txt",
+    "static/media/twu.txt": "/static/media/twu.eb420b15.txt",
+    "static/media/twu.jpg": "/static/media/twu.fac7d36b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.cea588d5.js",
-    "static/js/2.af8bf389.chunk.js",
-    "static/css/main.0f770dec.chunk.css",
-    "static/js/main.196e7d41.chunk.js"
+    "static/js/2.4d141644.chunk.js",
+    "static/css/main.e6084b92.chunk.css",
+    "static/js/main.81dcfc4f.chunk.js"
   ]
 }
