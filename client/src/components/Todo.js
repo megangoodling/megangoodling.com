@@ -3,6 +3,7 @@ import axios from 'axios';
 
 import Input from './Input';
 import ListTodo from './ListTodo';
+import './Todo.css'
 
 class Todo extends Component {
 
@@ -41,7 +42,7 @@ class Todo extends Component {
     let { todos } = this.state;
 
     return(
-      <div>
+      <div className='todo'>
         <h1>My Todo(s)</h1>
         <Input getTodos={this.getTodos}/>
         <ListTodo todos={todos} deleteTodo={this.deleteTodo}/>
