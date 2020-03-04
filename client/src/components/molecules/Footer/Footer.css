@@ -1,0 +1,17 @@
+.Footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+.SocialIcon {
+    margin: 0.5em 0.5em 0.5em 0.5em;
+}
+
+@media only screen and (max-width: 500px) {
+    .SocialIcon {
+        margin: 0;
+    }
+}

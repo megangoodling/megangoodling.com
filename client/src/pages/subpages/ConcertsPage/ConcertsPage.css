@@ -1,0 +1,36 @@
+h2.ProjectHeader {
+    color: pink;
+}
+
+.Project {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+.ProjectWriteup {
+    width: 40%;
+}
+
+.ProjectHeader {
+    font-size: 6vh;
+}
+
+.ProjectText {
+    text-align: left;
+}
+
+.ProjectPic {
+    width: 40%;
+}
+
+@media only screen and (max-width: 847px) {
+    .ProjectPic {
+        width: 80vw;
+    }
+}

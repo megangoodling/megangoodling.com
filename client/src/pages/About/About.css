@@ -1,0 +1,33 @@
+.ProfilePic {
+    display: block;
+    width: 30%;
+    flex: 0 0 auto;
+    padding-top: 5vh;
+}
+
+.Bio {
+    display: inline-block;
+    flex: 0 0 auto;
+    width: 30%;
+    padding-top: 5vh;
+}
+
+p {
+    font-size: 2vw;
+    font-family: 'Roboto', sans-serif;
+    color: pink;
+}
+
+@media only screen and (max-width: 850px) {
+    .ProfilePic {
+        width: 200px;
+    }
+    
+    .Bio {
+        width: 200px;
+    }
+
+    p {
+        font-size: 2vh;
+    }
+}

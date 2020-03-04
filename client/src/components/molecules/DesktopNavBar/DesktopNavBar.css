@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.DesktopNavBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 15vh;
+    width: 100%;
+    background-color: ffffff;
+}
+
+.Link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+h1.DesktopNavBar {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+}
+
+h1.Unicorn {
+    color: pink;
+}
+
+.Link.selected h1 {
+    border-bottom: 3px solid #161616;
+    padding-bottom: 5px;
+}

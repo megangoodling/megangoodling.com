@@ -1,0 +1,10 @@
+.Row {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}

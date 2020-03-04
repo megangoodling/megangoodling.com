@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.MobileNavBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.MG-logo {
+    width: 20vw;
+    cursor: pointer;
+    padding: 5vw;
+}
+
+.hamburger-menu {
+    width: 10vw;
+    cursor: pointer;
+    padding: 5vw;
+}
