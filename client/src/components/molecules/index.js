@@ -4,7 +4,6 @@ import DesktopNavBar from './DesktopNavBar'
 import Footer from './Footer'
 import MobileNavBar from './MobileNavBar'
 import Sidepanel from './Sidepanel'
-import Todo from './Todo'
 
 export {
     Backdrop,
@@ -12,6 +11,5 @@ export {
     DesktopNavBar,
     Footer,
     MobileNavBar,
-    Sidepanel,
-    Todo
+    Sidepanel
 }
