@@ -5,7 +5,7 @@ import { Footer } from 'molecules'
 import { Header } from 'organisms'
 import { ConcertsPage, FoodPage, TravelPage} from './pages/subpages'
 import { ProjectsPage } from './pages/subpages'
-import Todo from './components/Todo';
+import { Todo } from 'pages';
 import './App.css';
 
 const App = () => {

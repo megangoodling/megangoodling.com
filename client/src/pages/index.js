@@ -4,6 +4,7 @@ import Home from './Home'
 import MyFavoriteThings from './MyFavoriteThings'
 import Projects from './Projects'
 import Resume from './Resume'
+import Todo from './Todo'
 import Unicorns from './Unicorns'
 
 export {
@@ -13,5 +14,6 @@ export {
   MyFavoriteThings,
   Projects,
   Resume,
+  Todo,
   Unicorns
 }

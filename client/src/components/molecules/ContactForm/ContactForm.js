@@ -28,12 +28,12 @@ const ContactForm = () => {
     <form className='contact-form' onSubmit={sendEmail}>
       <Form.Group controlId='formBasicName'>
         <Form.Label>What's your name?</Form.Label>
-        <Form.Control type='name' placeholder='Name' name='user_name'/>
+        <Form.Control required type='name' placeholder='Name' name='user_name'/>
       </Form.Group>
 
       <Form.Group controlId='formBasicEmail'>
         <Form.Label>What's your email address?</Form.Label>
-        <Form.Control type='email' placeholder='Enter email' name='user_email'/>
+        <Form.Control required type='email' placeholder='Enter email' name='user_email'/>
         <Form.Text className='text-muted'>
           I'll never share your email with anyone else.
         </Form.Text>
@@ -41,7 +41,7 @@ const ContactForm = () => {
     
       <Form.Group controlId='exampleForm.ControlTextarea1'>
         <Form.Label>Message to Megan:</Form.Label>
-        <Form.Control as='textarea' rows='3'  name='message' placeholder='What&apos;s good?'/>
+        <Form.Control required as='textarea' rows='3'  name='message' placeholder='What&apos;s good?'/>
     </Form.Group>
       <Button variant='primary' type='submit' className='SubmitButton'>
         Send Email
