@@ -17,7 +17,7 @@ export class Home extends React.Component {
           <h2>I am a &#60; software developer /&#62;.</h2>
         </div>
         <div className='Content'>
-          <Link to={'./list'}>
+          <Link to={'./contact'}>
             <Button name='CLICK ME' onClick={this.handleClickSayHello}/>
           </Link>
         </div>
