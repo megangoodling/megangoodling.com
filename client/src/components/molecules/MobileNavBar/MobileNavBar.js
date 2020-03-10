@@ -1,11 +1,10 @@
 import React from 'react'
 import { Link } from 'atoms'
 import logo from 'assets/MG-logo.png'
-import menuBars from 'assets/menu-bars.svg' 
+import menuBars from 'assets/menu-bars.svg'
 import './MobileNavBar.css'
 
-const MobileNavaBar = (props) => {
-  return (
+const MobileNavaBar = (props) => (
     <div className='MobileNavBar'>
           <Link to='/'>
             <img 
@@ -22,6 +21,5 @@ const MobileNavaBar = (props) => {
           />
         </div>
   )
-}
 
 export default MobileNavaBar

@@ -1,18 +1,14 @@
-import React from 'react';
+import React from 'react'
 
-const ListTodo = ({ todos, deleteTodo }) => {
-
-  return (
+const ListTodo = ({ todos, deleteTodo }) => (
     <ul>
       {
         todos &&
           todos.length > 0 ?
             (
-              todos.map(todo => {
-                return (
+              todos.map(todo => (
                   <li key={todo._id} onClick={() => deleteTodo(todo._id)}>{todo.action}</li>
-                )
-              })
+                ))
             )
             :
             (
@@ -21,6 +17,5 @@ const ListTodo = ({ todos, deleteTodo }) => {
       }
     </ul>
   )
-}
 
 export default ListTodo

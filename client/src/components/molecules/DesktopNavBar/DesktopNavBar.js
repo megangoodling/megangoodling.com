@@ -3,8 +3,7 @@ import { Link } from 'atoms'
 import Logo from 'assets/MG-logo.png'
 import './DesktopNavBar.css'
 
-const DesktopNavBar = () => {
-  return (
+const DesktopNavBar = () => (
     <nav>
       <div className='DesktopNavBar'>
         <Link to='/'><img src={Logo} height={120} alt='mg' /></Link>
@@ -17,6 +16,5 @@ const DesktopNavBar = () => {
       </div>
     </nav>
   )
-}
 
 export default DesktopNavBar

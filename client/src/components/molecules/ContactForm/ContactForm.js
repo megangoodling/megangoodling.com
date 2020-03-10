@@ -12,7 +12,7 @@ const ContactForm = () => {
   const TEMPLATE_ID = 'contact_megan'
   const SERVICE_ID = 'gmail'
 
-  function sendEmail(e) {
+  function sendEmail (e) {
     e.preventDefault()
 
     emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
@@ -21,21 +21,21 @@ const ContactForm = () => {
           setSent(true)
       }, (error) => {
           console.log(error.text)
-      });
+      })
   }
 
   const form = (
     <form className='contact-form' onSubmit={sendEmail}>
       <Form.Group controlId='formBasicName'>
-        <Form.Label>What's your name?</Form.Label>
+        <Form.Label>What&apos;s your name?</Form.Label>
         <Form.Control required type='name' placeholder='Name' name='user_name'/>
       </Form.Group>
 
       <Form.Group controlId='formBasicEmail'>
-        <Form.Label>What's your email address?</Form.Label>
+        <Form.Label>What&apos;s your email address?</Form.Label>
         <Form.Control required type='email' placeholder='Enter email' name='user_email'/>
         <Form.Text className='text-muted'>
-          I'll never share your email with anyone else.
+          I&apos;ll never share your email with anyone else.
         </Form.Text>
       </Form.Group>
     

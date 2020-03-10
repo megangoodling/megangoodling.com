@@ -18,15 +18,13 @@ const Header = () => {
     setIsOpen(updateIsOpen)
   }
 
-  const createMobileNav = () => {
-    return (
+  const createMobileNav = () => (
       <div>
         <MobileNavBar parentCallback={() => setIsOpen(!isOpen)}/>
         <Sidepanel isOpen={isOpen} backdropClickHandler={backdropClickHandler} />
         <Backdrop alt='Backdrop' isOpen={isOpen} backdropClickHandler={backdropClickHandler} />
       </div>
     )
-  }
 
   return (
     <div>

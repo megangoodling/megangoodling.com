@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
-import axios from 'axios';
+import React, { Component } from 'react'
+import axios from 'axios'
 
 
 class Input extends Component {
 
   state = {
-    action: ""
+    action: ''
   }
 
   addTodo = () => {
@@ -15,8 +15,8 @@ class Input extends Component {
       axios.post('/api/todos', task)
         .then(res => {
           if(res.data){
-            this.props.getTodos();
-            this.setState({action: ""})
+            this.props.getTodos()
+            this.setState({action: ''})
           }
         })
         .catch(err => console.log(err))
@@ -31,11 +31,11 @@ class Input extends Component {
     })
   }
 
-  render() {
-    let { action } = this.state;
+  render () {
+    let { action } = this.state
     return (
       <div>
-        <input type="text" onChange={this.handleChange} value={action} />
+        <input type='text' onChange={this.handleChange} value={action} />
         <button onClick={this.addTodo}>add todo</button>
       </div>
     )
