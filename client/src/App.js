@@ -1,15 +1,14 @@
-import React from 'react';
+import React from 'react'
 import { Switch, Route, BrowserRouter } from 'react-router-dom'
 import { About, Contact, Home, MyFavoriteThings, Projects, Resume, Unicorns } from 'pages'
 import { Footer } from 'molecules'
 import { Header } from 'organisms'
 import { ConcertsPage, FoodPage, TravelPage} from './pages/subpages'
 import { ProjectsPage } from './pages/subpages'
-import { Todo } from 'pages';
-import './App.css';
+import { Todo } from 'pages'
+import './App.css'
 
-const App = () => {
-  return (
+const App = () => (
     <BrowserRouter>
       <div className='App'>
         <Header />        
@@ -46,6 +45,5 @@ const App = () => {
       </div>
     </BrowserRouter>
   )
-}
 
-export default App;
+export default App

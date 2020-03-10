@@ -2,10 +2,8 @@ import React from 'react'
 import './FoodPage.css'
 import '../../PageLayout.css'
 
-const FoodPage = () => {
-  return (
+const FoodPage = () => (
       <p>Food</p>
   )
-}
 
 export default FoodPage

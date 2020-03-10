@@ -11,7 +11,7 @@ export class Unicorns extends React.Component {
         </div>
         <div className='Content'>
           <p>Make your own unicorn</p>
-          <p>It's so fun</p>
+          <p>It&apos;s so fun</p>
         </div>
       </div>
     )

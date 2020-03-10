@@ -1,6 +1,6 @@
 const webpackConfig = require('./webpackConfig')
 
 module.exports = {
-    reactScriptsVersion: "react-scripts",
+    reactScriptsVersion: 'react-scripts',
     webpack: webpackConfig
 }

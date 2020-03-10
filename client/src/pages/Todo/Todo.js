@@ -1,8 +1,8 @@
-import React, {Component} from 'react';
-import axios from 'axios';
+import React, {Component} from 'react'
+import axios from 'axios'
 
-import { Input } from 'molecules';
-import { ListTodo } from 'molecules';
+import { Input } from 'molecules'
+import { ListTodo } from 'molecules'
 import './Todo.css'
 
 class Todo extends Component {
@@ -11,8 +11,8 @@ class Todo extends Component {
     todos: []
   }
 
-  componentDidMount(){
-    this.getTodos();
+  componentDidMount (){
+    this.getTodos()
   }
 
   getTodos = () => {
@@ -38,8 +38,8 @@ class Todo extends Component {
       .catch(err => console.log(err))
   }
 
-  render() {
-    let { todos } = this.state;
+  render () {
+    let { todos } = this.state
 
     return(
       <div className='todo'>
@@ -51,4 +51,4 @@ class Todo extends Component {
   }
 }
 
-export default Todo;
+export default Todo
