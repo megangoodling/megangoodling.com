@@ -8,6 +8,7 @@ export class Unicorns extends React.Component {
       <div className='Page'>
         <div className='Header'>
           <h1>Unicorns!</h1>
+          <h2 className='Unicorn'>Scroll down to create a unicorn and feed it glitter :)</h2>
         </div>
         <div className='Content'>
           <p>Make your own unicorn</p>

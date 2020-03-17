@@ -13,6 +13,7 @@
     "react": "^16.13.0",
     "react-bootstrap": "^1.0.0-beta.17",
     "react-dom": "^16.13.0",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
     "react-social-icons": "^4.1.0"
   },
@@ -34,6 +35,15 @@
       "last 1 safari version"
     ]
   },
-  "cracoConfig": "src/config/craco.config.js",
+  "devDependencies": {
+    "cypress": "^3.6.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "enzyme-shallow-until": "^1.0.1",
+    "enzyme-to-json": "^3.4.3",
+    "react-test-renderer": "^16.11.0",
+    "standard": "^14.1.0"
+  },
+  "cracoConfig": "config/craco.config.js",
   "proxy": "http://localhost:5000"
 }
