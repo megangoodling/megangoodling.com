@@ -1,8 +1,10 @@
 import React from 'react'
-import './Unicorns.css'
+import { Todo } from 'pages'
+import Unicorn from './Unicorn' 
+import './UnicornsPage.css'
 import '../PageLayout.css'
 
-export class Unicorns extends React.Component {
+export class UnicornsPage extends React.Component {
   render () {
     return (
       <div className='Page'>
@@ -11,12 +13,12 @@ export class Unicorns extends React.Component {
           <h2 className='Unicorn'>Scroll down to create a unicorn and feed it glitter :)</h2>
         </div>
         <div className='Content'>
-          <p>Make your own unicorn</p>
-          <p>It&apos;s so fun</p>
+          {/* <Todo /> */}
+          <Unicorn />
         </div>
       </div>
     )
   }
 }
 
-export default Unicorns
+export default UnicornsPage

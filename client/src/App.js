@@ -1,11 +1,10 @@
 import React from 'react'
 import { Switch, Route, BrowserRouter } from 'react-router-dom'
-import { About, Contact, Home, MyFavoriteThings, Projects, Resume, Unicorns } from 'pages'
+import { About, Contact, Home, MyFavoriteThings, Projects, Resume, UnicornsPage } from 'pages'
 import { Footer } from 'molecules'
 import { Header } from 'organisms'
 import { ConcertsPage, FoodPage, TravelPage} from './pages/subpages'
 import { ProjectsPage } from './pages/subpages'
-import { Todo } from 'pages'
 import './App.css'
 
 const App = () => (
@@ -20,7 +19,7 @@ const App = () => (
           <Route exact path='/myfavoritethings' component={MyFavoriteThings} />
           <Route exact path='/projects' component={Projects} />
           <Route exact path='/resume' component={Resume} />
-          <Route exact path='/unicorns' component={Unicorns} />
+          <Route exact path='/unicorns' component={UnicornsPage} />
 
           <Route exact path='/projects/raspberrypi' component={() => 
             <ProjectsPage title='Raspberry Pi' name='raspberrypi' pic='MG-logo.png'/>}/>
@@ -39,7 +38,6 @@ const App = () => (
           <Route exact path='/myfavoritethings/travel' component={TravelPage}/>
           <Route exact path='/myfavoritethings/food' component={FoodPage}/>
 
-          <Route exact path='/todo' component={Todo} />
         </Switch>
         <Footer />
       </div>

@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 
-
 class Input extends Component {
 
   state = {
@@ -34,7 +33,7 @@ class Input extends Component {
   render () {
     let { action } = this.state
     return (
-      <div>
+      <div className='Input'>
         <input type='text' onChange={this.handleChange} value={action} />
         <button onClick={this.addTodo}>add todo</button>
       </div>

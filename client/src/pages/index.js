@@ -5,7 +5,7 @@ import MyFavoriteThings from './MyFavoriteThings'
 import Projects from './Projects'
 import Resume from './Resume'
 import Todo from './Todo'
-import Unicorns from './Unicorns'
+import UnicornsPage from './UnicornsPage'
 
 export {
   About,
@@ -15,5 +15,5 @@ export {
   Projects,
   Resume,
   Todo,
-  Unicorns
+  UnicornsPage
 }
