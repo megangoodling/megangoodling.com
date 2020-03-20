@@ -1,12 +1,9 @@
 import React, {Component} from 'react'
 import axios from 'axios'
-
 import { UnicornInput } from 'molecules'
-import { ListUnicorn } from 'molecules'
-import './Unicorn.css'
+import './UnicornList.css'
 
-class Unicorn extends Component {
-
+class UnicornList extends Component {
   state = {
     unicorns: []
   }
@@ -28,7 +25,6 @@ class Unicorn extends Component {
   }
 
   deleteUnicorn = (id) => {
-
     axios.delete(`/api/unicorns/${id}`)
       .then(res => {
         if(res.data){
@@ -45,13 +41,30 @@ class Unicorn extends Component {
       <div className='unicorn'>
         <h1>My Unicorns</h1>
         <div>
-          <h2>Name: </h2>
+          <h2>Create a Unicorn: </h2>
           <UnicornInput getUnicorns={this.getUnicorns}/>
         </div>
-        <ListUnicorn unicorns={unicorns} deleteUnicorn={this.deleteUnicorn}/>
+        <ul>
+        {
+          unicorns &&
+          unicorns.length > 0 ?
+              (
+                unicorns.map(unicorn => (
+                <li key={unicorn._id} onClick={() => this.deleteUnicorn(unicorn._id)}>
+                  {unicorn.name}
+                  <p >{unicorn.color}</p>
+                  </li>
+                  ))
+              )
+              :
+              (
+                <li>No unicorn(s) left</li>
+              )
+        }
+        </ul>
       </div>
     )
   }
 }
 
-export default Unicorn
+export default UnicornList

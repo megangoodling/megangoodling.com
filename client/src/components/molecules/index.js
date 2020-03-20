@@ -4,7 +4,6 @@ import DesktopNavBar from './DesktopNavBar'
 import Footer from './Footer'
 import Input from './Input'
 import ListTodo from './ListTodo'
-import ListUnicorn from './ListUnicorns'
 import MobileNavBar from './MobileNavBar'
 import Sidepanel from './Sidepanel'
 import UnicornInput from './UnicornInput'
@@ -16,7 +15,6 @@ export {
     Footer,
     Input,
     ListTodo,
-    ListUnicorn,
     MobileNavBar,
     Sidepanel,
     UnicornInput

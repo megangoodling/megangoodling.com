@@ -6,12 +6,11 @@ const UnicornSchema = new Schema({
   name: {
     type: String,
     required: [true, 'The name text field is required']
+  },
+  color: {
+    type: String,
+    required: [true, 'The color option field is required']
   }
-  // ,
-  // color: {
-  //   type: Number,
-  //   required: [true, 'The color option field is required']
-  // }
   //,
   // foodLevel: {
   //   type: Number,

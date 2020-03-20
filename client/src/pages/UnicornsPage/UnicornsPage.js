@@ -1,6 +1,5 @@
 import React from 'react'
-import { Todo } from 'pages'
-import Unicorn from './Unicorn' 
+import UnicornList from './UnicornList' 
 import './UnicornsPage.css'
 import '../PageLayout.css'
 
@@ -14,7 +13,7 @@ export class UnicornsPage extends React.Component {
         </div>
         <div className='Content'>
           {/* <Todo /> */}
-          <Unicorn />
+          <UnicornList />
         </div>
       </div>
     )

@@ -31,20 +31,26 @@ router.delete('/todos/:id', (req, res, next) => {
 
 router.get('/unicorns', (req, res, next) => {
 
-  //this will return all the data, exposing only the id and action field to the client
-  Unicorn.find({}, 'name')
+  //this will return all the data, exposing only the id, name and color field to the client
+  Unicorn.find({})
     .then(data => res.json(data))
     .catch(next)
 });
 
 router.post('/unicorns', (req, res, next) => {
-  if(req.body.name){
+  if(req.body.name && req.body.color){
     Unicorn.create(req.body)
       .then(data => res.json(data))
       .catch(next)
-  }else {
+  }
+  // if(req.body.name){
+  //   Unicorn.create(req.body)
+  //     .then(data => res.json(data))
+  //     .catch(next)
+  // } 
+  else {
     res.json({
-      error: "The name field is empty"
+      error: "The name or color field is empty"
     })
   }
 });
