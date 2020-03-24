@@ -43,11 +43,6 @@ router.post('/unicorns', (req, res, next) => {
       .then(data => res.json(data))
       .catch(next)
   }
-  // if(req.body.name){
-  //   Unicorn.create(req.body)
-  //     .then(data => res.json(data))
-  //     .catch(next)
-  // } 
   else {
     res.json({
       error: "The name or color field is empty"

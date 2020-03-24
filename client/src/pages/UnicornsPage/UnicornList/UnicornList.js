@@ -2,8 +2,10 @@ import React, {Component} from 'react'
 import axios from 'axios'
 import { UnicornInput } from 'molecules'
 import './UnicornList.css'
+import UnicornAvatar from '../UnicornAvatar'
 
 class UnicornList extends Component {
+
   state = {
     unicorns: []
   }
@@ -52,7 +54,8 @@ class UnicornList extends Component {
                 unicorns.map(unicorn => (
                 <li key={unicorn._id} onClick={() => this.deleteUnicorn(unicorn._id)}>
                   {unicorn.name}
-                  <p >{unicorn.color}</p>
+                  <UnicornAvatar unicorn={unicorn.color} />
+                  {/* <p>{unicorn.color}</p> */}
                   </li>
                   ))
               )

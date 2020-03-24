@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "675808c280272cc4a0bbffc60c66946c",
+    "revision": "43c3f6f1fb4dd186500dacb8b5e6286f",
     "url": "/index.html"
   },
   {
-    "revision": "fcbef454c2b6d6b896e6",
-    "url": "/static/css/main.22924c25.chunk.css"
+    "revision": "d16a31015c17d7b56603",
+    "url": "/static/css/main.9f270a77.chunk.css"
   },
   {
     "revision": "70f13eac58776c59c461",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.5c3cdada.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fcbef454c2b6d6b896e6",
-    "url": "/static/js/main.5bb3fc6b.chunk.js"
+    "revision": "d16a31015c17d7b56603",
+    "url": "/static/js/main.231fd081.chunk.js"
   },
   {
     "revision": "5d93c6b2d15332364552",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e341e56fbc68b33018c5cb05fefc9bd0",
     "url": "/static/media/begoodjewelry.e341e56f.jpg"
+  },
+  {
+    "revision": "bdac0071c3f91d892fb27f8c78e1ee23",
+    "url": "/static/media/cupcake.bdac0071.jpg"
   },
   {
     "revision": "e2efe401a3b050a714b2e01277e22c2b",

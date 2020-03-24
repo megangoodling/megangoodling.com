@@ -12,7 +12,6 @@ export class UnicornsPage extends React.Component {
           <h2 className='Unicorn'>Scroll down to create a unicorn and feed it glitter :)</h2>
         </div>
         <div className='Content'>
-          {/* <Todo /> */}
           <UnicornList />
         </div>
       </div>
