@@ -26,10 +26,10 @@ class UnicornInput extends Component {
         .catch(err => console.log(err))
     } else {
       if (!task.name){
-        console.log('name field required')
+        console.log('Name field required')
       }
       if (!task.avatar){
-        console.log('avatar field required')
+        console.log('Avatar field required')
       }
     }
   }

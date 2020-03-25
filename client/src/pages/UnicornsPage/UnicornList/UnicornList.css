@@ -17,20 +17,20 @@ input {
     font-size: 1.5rem;
   }
   
-ul {
+ul.unicornList {
   width: 30%;
   list-style: none;
   text-align: center;
   padding: 15px;
-  background: #171a1f;
+  background: pink;
   border-radius: 5px;
 }
   
-li {
+li.unicornList {
   padding: 15px;
   font-size: 1.5rem;
   margin-bottom: 15px;
-  background: #282c34;
+  background: white;
   border-radius: 5px;
   overflow-wrap: break-word;
   cursor: pointer;

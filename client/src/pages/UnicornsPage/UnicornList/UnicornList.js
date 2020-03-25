@@ -46,21 +46,20 @@ class UnicornList extends Component {
           <h2>Create a Unicorn: </h2>
           <UnicornInput getUnicorns={this.getUnicorns}/>
         </div>
-        <ul>
+        <ul className='unicornList'>
         {
           unicorns &&
           unicorns.length > 0 ?
               (
-                unicorns.map(unicorn => (
-                <li key={unicorn._id} onClick={() => this.deleteUnicorn(unicorn._id)}>
-                  {unicorn.name}
-                  <UnicornAvatar avatar={unicorn.avatar} foodLevel={unicorn.foodLevel} />
+                unicorns.reverse().map(unicorn => (
+                <li key={unicorn._id} className='unicornList'>
+                  <UnicornAvatar unicorn={unicorn} />
                   </li>
                   ))
               )
               :
               (
-                <li>No unicorn(s) left</li>
+                <li>No unicorns left</li>
               )
         }
         </ul>
