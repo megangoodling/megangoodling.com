@@ -7,15 +7,15 @@ const UnicornSchema = new Schema({
     type: String,
     required: [true, 'The name text field is required']
   },
-  color: {
+  avatar: {
     type: String,
-    required: [true, 'The color option field is required']
+    required: [true, 'The avatar field is required']
   }
-  //,
-  // foodLevel: {
-  //   type: Number,
-  //   required: [true, 'The food option field is required']
-  // }
+  ,
+  foodLevel: {
+    type: Number,
+    required: [true, 'The food option field is required']
+  }
 })
 
 //create model for unicorn

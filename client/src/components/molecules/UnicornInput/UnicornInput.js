@@ -1,31 +1,35 @@
 import React, { Component } from 'react'
+import { RadioGroup, RadioButton } from 'react-radio-buttons'
 import axios from 'axios'
 
 class UnicornInput extends Component {
+
   state = {
     name: '',
-    color: ''
+    avatar: '',
+    foodLevel: 0
   }
 
   addUnicorn = () => {
     const task = {name: this.state.name,
-                  color: this.state.color}
+                  avatar: this.state.avatar,
+                  foodLevel: this.state.foodLevel}
 
-    if(task.name && task.name.length > 0 && task.color && task.color.length > 0){
+    if(task.name && task.name.length > 0 && task.avatar && task.avatar.length > 0){
       axios.post('/api/unicorns', task)
         .then(res => {
           if(res.data){
             this.props.getUnicorns()
-            this.setState({name: '', color: ''})
+            this.setState({name: '', avatar: '', foodLevel: 0})
           }
         })
         .catch(err => console.log(err))
-    }else {
+    } else {
       if (!task.name){
         console.log('name field required')
       }
-      if (!task.color){
-        console.log('color field required')
+      if (!task.avatar){
+        console.log('avatar field required')
       }
     }
   }
@@ -36,22 +40,40 @@ class UnicornInput extends Component {
     })
   }
 
-  handleColorChange = (e) => {
+  handleAvatarChange = (e) => {
     this.setState({
-      color: e.target.value
+      avatar: e
     })
   }
 
   render () {
     let { name } = this.state
-    let { color } = this.state
+
     return (
       <div className='UnicornInput'>
         <div>
           <p>Name: </p>
-          <input type='text' onChange={this.handleNameChange} value={name} />
-          <p>Color: </p>
-          <input type='text' onChange={this.handleColorChange} value={color} />
+          <input type='text' onChange={ this.handleNameChange } value={name} />
+          <p>Avatar: </p>
+
+          <RadioGroup onChange={ this.handleAvatarChange } horizontal >
+            <RadioButton value="cupcake" >
+              Cupcake
+            </RadioButton>
+            <RadioButton value="icecream">
+              Ice Cream
+            </RadioButton>
+            <RadioButton value="donut">
+              Donut
+            </RadioButton>
+            <RadioButton value="mermaid">
+              Mermaid
+            </RadioButton>
+            <RadioButton value="rainbow">
+              Rainbow
+            </RadioButton>
+          </RadioGroup>
+          
         </div>
         <button onClick={this.addUnicorn}>add unicorn</button>
       </div>

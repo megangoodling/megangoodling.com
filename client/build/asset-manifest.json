@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.9f270a77.chunk.css",
-    "main.js": "/static/js/main.231fd081.chunk.js",
-    "main.js.map": "/static/js/main.231fd081.chunk.js.map",
+    "main.css": "/static/css/main.e95dce71.chunk.css",
+    "main.js": "/static/js/main.3a6bf91a.chunk.js",
+    "main.js.map": "/static/js/main.3a6bf91a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cea588d5.js",
     "runtime-main.js.map": "/static/js/runtime-main.cea588d5.js.map",
-    "static/js/2.5c3cdada.chunk.js": "/static/js/2.5c3cdada.chunk.js",
-    "static/js/2.5c3cdada.chunk.js.map": "/static/js/2.5c3cdada.chunk.js.map",
+    "static/js/2.f8c0349d.chunk.js": "/static/js/2.f8c0349d.chunk.js",
+    "static/js/2.f8c0349d.chunk.js.map": "/static/js/2.f8c0349d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e3a9bf7691cb38dfdbc567cc9306ede0.js": "/precache-manifest.e3a9bf7691cb38dfdbc567cc9306ede0.js",
+    "precache-manifest.2a05a8dc7915916f40b8a9ef170eb7d9.js": "/precache-manifest.2a05a8dc7915916f40b8a9ef170eb7d9.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.9f270a77.chunk.css.map": "/static/css/main.9f270a77.chunk.css.map",
-    "static/js/2.5c3cdada.chunk.js.LICENSE.txt": "/static/js/2.5c3cdada.chunk.js.LICENSE.txt",
+    "static/css/main.e95dce71.chunk.css.map": "/static/css/main.e95dce71.chunk.css.map",
+    "static/js/2.f8c0349d.chunk.js.LICENSE.txt": "/static/js/2.f8c0349d.chunk.js.LICENSE.txt",
     "static/media/MG-logo.png": "/static/media/MG-logo.80629e96.png",
     "static/media/Profile-B&W.jpg": "/static/media/Profile-B&W.913df90b.jpg",
     "static/media/afatherslullaby.txt": "/static/media/afatherslullaby.1283b77b.txt",
@@ -19,9 +19,13 @@
     "static/media/begoodjewelry.txt": "/static/media/begoodjewelry.ca0cdab5.txt",
     "static/media/begoodjewelry.jpg": "/static/media/begoodjewelry.e341e56f.jpg",
     "static/media/cupcake.jpg": "/static/media/cupcake.bdac0071.jpg",
+    "static/media/donut.jpg": "/static/media/donut.491abb9c.jpg",
+    "static/media/icecream.jpg": "/static/media/icecream.5981e019.jpg",
     "static/media/menu-bars.svg": "/static/media/menu-bars.e2efe401.svg",
+    "static/media/mermaid.jpg": "/static/media/mermaid.724d75b9.jpg",
     "static/media/nlpcolumbia.txt": "/static/media/nlpcolumbia.8161b7ac.txt",
     "static/media/nlpcolumbia.jpg": "/static/media/nlpcolumbia.989784b0.jpg",
+    "static/media/rainbow.jpg": "/static/media/rainbow.1689d006.jpg",
     "static/media/raspberrypi.txt": "/static/media/raspberrypi.12b19da0.txt",
     "static/media/raspberrypi.jpg": "/static/media/raspberrypi.8b24af3d.jpg",
     "static/media/thiswebsite.jpg": "/static/media/thiswebsite.c82b7c91.jpg",
@@ -31,8 +35,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.cea588d5.js",
-    "static/js/2.5c3cdada.chunk.js",
-    "static/css/main.9f270a77.chunk.css",
-    "static/js/main.231fd081.chunk.js"
+    "static/js/2.f8c0349d.chunk.js",
+    "static/css/main.e95dce71.chunk.css",
+    "static/js/main.3a6bf91a.chunk.js"
   ]
 }
