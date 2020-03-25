@@ -10,7 +10,7 @@ const UnicornAvatar = (props) => {
         <img src={unicornPic} alt='UnicornAvatar' className='UnicornAvatar'/>
         <div>
           <button className='UnicornAvatar'>Feed me!</button>
-          <button className='UnicornAvatar'>Jump over rainbow</button>
+          <button className='UnicornAvatar'>Poop glitter</button>
         </div>
         <p>Food Level: {props.unicorn.foodLevel}</p>
       </div>

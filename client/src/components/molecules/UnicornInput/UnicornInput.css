@@ -1,0 +1,24 @@
+p.unicornInput {
+    font-size: 3vh;
+}
+
+.unicornRadio {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+@media only screen and (max-width: 900px) {
+    p.unicornInput {
+        font-size: 5vh;
+    }
+
+    .unicornRadio {
+        width: 50%;
+    }
+  }

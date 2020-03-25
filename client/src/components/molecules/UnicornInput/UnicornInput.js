@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { RadioGroup, RadioButton } from 'react-radio-buttons'
 import axios from 'axios'
+import './UnicornInput.css'
 
 class UnicornInput extends Component {
 
@@ -50,26 +51,26 @@ class UnicornInput extends Component {
     let { name } = this.state
 
     return (
-      <div className='UnicornInput'>
+      <div className='unicornInput'>
         <div>
-          <p>Name: </p>
+          <p className='unicornInput'>Name: </p>
           <input type='text' onChange={ this.handleNameChange } value={name} />
-          <p>Avatar: </p>
+          <p className='unicornInput'>Avatar: </p>
 
-          <RadioGroup onChange={ this.handleAvatarChange } horizontal >
-            <RadioButton value="cupcake" >
+          <RadioGroup className='unicornRadio' onChange={ this.handleAvatarChange } horizontal >
+            <RadioButton className='unicornButton' value="cupcake" >
               Cupcake
             </RadioButton>
-            <RadioButton value="icecream">
+            <RadioButton className='unicornButton' value="icecream">
               Ice Cream
             </RadioButton>
-            <RadioButton value="donut">
+            <RadioButton className='unicornButton' value="donut">
               Donut
             </RadioButton>
-            <RadioButton value="mermaid">
+            <RadioButton className='unicornButton' value="mermaid">
               Mermaid
             </RadioButton>
-            <RadioButton value="rainbow">
+            <RadioButton className='unicornButton' value="rainbow">
               Rainbow
             </RadioButton>
           </RadioGroup>

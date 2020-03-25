@@ -4,9 +4,12 @@ img.UnicornAvatar {
 
 h3.UnicornAvatar  {
     color: black;
+    font-size: 4vh;
 }
   
-h4.UnicornAvatar  {
-    color: black;
+button.UnicornAvatar  {
+    color: white;
+    background-color: black;
+    height: 4em;
+    width: 6em;
 }
-  
