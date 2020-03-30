@@ -1,7 +1,7 @@
 {
-  "name": "todo",
+  "name": "unicorns",
   "version": "1.0.0",
-  "description": "building todo app using mongodb, express, react and nodejs",
+  "description": "building unicorns app using mongodb, express, react and nodejs",
   "main": "index.js",
   "scripts": {
     "client-install": "npm install --prefix client",

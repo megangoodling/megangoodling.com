@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import axios from 'axios'
-import { UnicornInput } from 'molecules'
+import UnicornInput from '../UnicornInput'
 import UnicornAvatar from '../UnicornAvatar'
 import './UnicornList.css'
 
@@ -53,7 +53,7 @@ class UnicornList extends Component {
               (
                 unicorns.reverse().map(unicorn => (
                 <li key={unicorn._id} className='unicornList'>
-                  <UnicornAvatar unicorn={unicorn} />
+                  <UnicornAvatar unicorn={unicorn} deleteUnicorn={this.deleteUnicorn} getUnicorns={this.getUnicorns}/>
                   </li>
                   ))
               )
