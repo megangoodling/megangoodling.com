@@ -4,11 +4,11 @@
   "description": "building unicorns app using mongodb, express, react and nodejs",
   "main": "index.js",
   "scripts": {
-    "client-install": "yarn install --prefix client",
+    "client-install": "npm install --prefix client",
     "start": "node index.js",
     "server": "nodemon index.js",
-    "client": "cd client && yarn start",
-    "dev": "concurrently \"yarn run server\" \"yarn run client\"",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
     "test": "cd client && yarn run test"
   },
   "keywords": [],
