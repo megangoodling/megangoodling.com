@@ -27,7 +27,6 @@ const Sidepanel = (props) => {
     <div className={panelClass} onClick={() => menuClickHandler()}>
       <Link className='firstLink' to='/'>Home</Link>
       <Link to='/about'>About Me</Link>
-      <Link to='/myfavoritethings'>My Favorite Things</Link>
       <Link to='/projects'>Projects</Link>
       <Link to='/unicorns'>Unicorns</Link>
       <Link to='/resume'>Resume</Link>

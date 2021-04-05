@@ -1,9 +1,8 @@
 import React from 'react'
 import { Switch, Route, BrowserRouter } from 'react-router-dom'
-import { About, Contact, Home, MyFavoriteThings, Projects, Resume, UnicornsPage } from 'pages'
+import { About, Contact, Home, Projects, Resume, UnicornsPage } from 'pages'
 import { Footer } from 'molecules'
 import { Header } from 'organisms'
-import { ConcertsPage, FoodPage, TravelPage} from './pages/subpages'
 import { ProjectsPage } from './pages/subpages'
 import './App.css'
 
@@ -16,7 +15,6 @@ const App = () => (
         <Route exact path='/' component={Home} />
           <Route exact path='/about' component={About} />
           <Route exact path='/contact' component={Contact} />
-          <Route exact path='/myfavoritethings' component={MyFavoriteThings} />
           <Route exact path='/projects' component={Projects} />
           <Route exact path='/resume' component={Resume} />
           <Route exact path='/unicorns' component={UnicornsPage} />
@@ -34,9 +32,6 @@ const App = () => (
           <Route exact path='/projects/afatherslullaby' component={() => 
             <ProjectsPage title='A Fathers Lullaby' name='afatherslullaby'/>}/>
 
-          <Route exact path='/myfavoritethings/concerts' component={ConcertsPage}/>
-          <Route exact path='/myfavoritethings/travel' component={TravelPage}/>
-          <Route exact path='/myfavoritethings/food' component={FoodPage}/>
 
         </Switch>
         <Footer />

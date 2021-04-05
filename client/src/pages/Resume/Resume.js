@@ -15,6 +15,9 @@ export class Resume extends React.Component {
             <div className='ResumeElementList'>
               <h4>React</h4>
               <h4>Python</h4>
+              <h4>Java</h4>
+              <h4>Kafka</h4>
+              <h4>AWS Certified Developer Associate</h4>
               <h4>Agile Software Development</h4>
               <h4>Digital Transformation Consulting</h4>
             </div>

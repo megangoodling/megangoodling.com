@@ -9,7 +9,7 @@ export class Contact extends React.Component {
       <div className='Page'>
         <div className='Header'>
           <h1>Give me a shout!</h1>
-          <h2>I am currently based in Chicago, IL.</h2>
+          <h2>I am currently based in Denver, CO.</h2>
 
         </div>
         <div className='Content'>

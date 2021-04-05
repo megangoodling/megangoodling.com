@@ -13,7 +13,7 @@ export class About extends React.Component {
         <div className='Content'>
           <div className='Row'>
             <img src={profile} className='ProfilePic' alt='me' />
-            <p className='Bio'>Hey there, I&apos;m Megan! I am from Charlotte, NC, and studied at Davidson College, where I played soccer. Currently I live in Chicago and work for ThoughtWorks, Inc., as a software developer consultant. I am 23 years old, love skiing, am pescetarian, read a lot of Kurt Vonnegut, and enjoy conversations with strangers. Welcome to my website -- I hope you learn a bit more about me!</p>
+            <p className='Bio'>Hey there, I&apos;m Megan! I am from Charlotte, NC, and studied at Davidson College, where I played soccer. Currently I live in Denver and work for ThoughtWorks, Inc., as a Software Developer Consultant. I love skiing and concerts, am pescetarian, read a lot of Kurt Vonnegut, and enjoy conversations with strangers. Welcome to my website -- I hope you learn a bit more about me!</p>
           </div>
         </div>
       </div>
