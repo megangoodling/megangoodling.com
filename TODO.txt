@@ -1,2 +1,9 @@
-- add soccer
-- add 
+Content:
+- add soccer stuff
+- add link to code base
+
+
+Technical:
+- add git hooks
+- add testing
+- add README
