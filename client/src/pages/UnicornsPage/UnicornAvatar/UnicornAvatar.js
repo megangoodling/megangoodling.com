@@ -19,7 +19,7 @@ const UnicornAvatar = ({unicorn, deleteUnicorn, getUnicorns}) => {
       .catch(err => console.log(err))
   }
 
-  const poopUnicorn = (id) => {
+  const shootUnicorn = (id) => {
     const task = {name: unicorn.name,
                   avatar: unicorn.avatar,
                   foodLevel: unicorn.foodLevel - 20}
@@ -39,7 +39,7 @@ const UnicornAvatar = ({unicorn, deleteUnicorn, getUnicorns}) => {
         <img src={unicornPic} alt='UnicornAvatar' className='UnicornAvatar'/>
         <div>
           <button className='UnicornAvatar' onClick={() => feedUnicorn(unicorn._id)}>Feed me!</button>
-          <button className='UnicornAvatar' onClick={() => poopUnicorn(unicorn._id)}>Poop glitter</button>
+          <button className='UnicornAvatar' onClick={() => shootUnicorn(unicorn._id)}>Shoot glitter</button>
           <button className='UnicornAvatar' onClick={() => deleteUnicorn(unicorn._id)}>Delete</button>
         </div>
         <p>Food Level: {unicorn.foodLevel}</p>
